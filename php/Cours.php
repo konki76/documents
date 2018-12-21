@@ -1,4 +1,5 @@
 <?php 
+// classe abstraite Cours
 abstract class Cours{
     protected $id;
     protected $ageMini;
