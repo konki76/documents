@@ -8,7 +8,7 @@ abstract class Cours{
     public function __construct($unId,$unAgeMini){   // constructeur
         $this->id=$unId;
         $this->ageMini=$unAgeMini;
-        $this->lesJours=array();
+        $this->lesJours=array(); // c'est une collection
     }
 
 	abstract protected function Afficher();
